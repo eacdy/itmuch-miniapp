@@ -9,9 +9,9 @@
 		"autoAudits": false
 	},
 	"miniprogramRoot": "dist/wx/",
-	"compileType": "miniprogram",
-	"appid": "修改为你的appid",
-	"projectname": "修改为你的项目名称，尽量用英文",
+	"compileType": "plugin",
+	"appid": "wx5398457df5368458",
+	"projectname": "Thor",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {

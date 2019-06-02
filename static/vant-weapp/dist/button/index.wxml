@@ -1,0 +1,26 @@
+<button
+  id="{{ id }}"
+  lang="{{ lang }}"
+  class="{{ classes }}"
+  open-type="{{ openType }}"
+  session-from="{{ sessionFrom }}"
+  app-parameter="{{ appParameter }}"
+  send-message-img="{{ sendMessageImg }}"
+  send-message-path="{{ sendMessagePath }}"
+  show-message-card="{{ showMessageCard }}"
+  send-message-title="{{ sendMessageTitle }}"
+  bind:tap="onClick"
+  binderror="bindError"
+  bindcontact="bindContact"
+  bindopensetting="bindOpenSetting"
+  bindgetuserinfo="bindGetUserInfo"
+  bindgetphonenumber="bindGetPhoneNumber"
+>
+  <van-loading
+    wx:if="{{ loading }}"
+    size="20px"
+    custom-class="loading-class"
+    color="{{ type === 'default' ? '#c9c9c9' : '' }}"
+  />
+  <slot wx:else />
+</button>

@@ -23,7 +23,7 @@ mongo_data/
 
 .DS_Store
 node_modules/
-dist/
+dist/wx/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
