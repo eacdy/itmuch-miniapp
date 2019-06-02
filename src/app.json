@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/share/list/main",
+    "pages/user/me/main",
+    "pages/user/post-list/main",
+    "pages/user/complete/main",
+    "pages/user/bonus-log/main",
+    "pages/user/contribution/main",
+    "pages/share/detail/main",
+    "pages/share/buy-success/main",
+    "pages/share/contribute/main",
+    "pages/share/preview/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ff4444",
+    "navigationBarTitleText": "干货分享",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#ff4444",
+    "list": [
+      {
+        "pagePath": "pages/share/list/main",
+        "text": "首页",
+        "iconPath": "static/img/home-off.png",
+        "selectedIconPath": "static/img/home-on.png"
+      },
+      {
+        "pagePath": "pages/share/contribute/main",
+        "text": "投稿",
+        "iconPath": "static/img/contribute-off.png",
+        "selectedIconPath": "static/img/contribute-on.png"
+      },
+      {
+        "pagePath": "pages/user/me/main",
+        "text": "我的",
+        "iconPath": "static/img/me-off.png",
+        "selectedIconPath": "static/img/me-on.png"
+      }
+    ]
+  }
+}
+
+
+
+
+

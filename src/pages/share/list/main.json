@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "van-tag": "/static/vant-weapp/dist/tag/index",
+    "van-search": "/static/vant-weapp/dist/search/index",
+    "van-tabs": "/static/vant-weapp/dist/tabs/index",
+    "van-tab": "/static/vant-weapp/dist/tab/index",
+    "van-button": "/static/vant-weapp/dist/button/index",
+    "van-cell": "/static/vant-weapp/dist/cell/index",
+    "van-row": "/static/vant-weapp/dist/row/index",
+    "van-col": "/static/vant-weapp/dist/col/index",
+    "van-card": "/static/vant-weapp/dist/card/index",
+    "van-notice-bar": "/static/vant-weapp/dist/notice-bar/index"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "兑换成功",
+  "usingComponents": {
+    "van-button": "/static/vant-weapp/dist/button/index",
+    "van-cell":"/static/vant-weapp/dist/cell/index",
+    "van-panel":"/static/vant-weapp/dist/panel/index",
+    "van-row": "/static/vant-weapp/dist/row/index",
+    "van-toast": "/static/vant-weapp/dist/toast/index",
+    "van-col": "/static/vant-weapp/dist/col/index",
+    "van-submit-bar":"/static/vant-weapp/dist/submit-bar/index"
+  }
+}
