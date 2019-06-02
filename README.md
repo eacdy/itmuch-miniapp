@@ -44,8 +44,8 @@ git clone https://github.com/eacdy/itmuch-miniapp.git
 修改 `project.config.json` ，按需修改如下两行
 
 ```yaml
-	"appid": "修改为你的appid", // 这里提供一个给大家测试：wx5398457df5368458
-	"projectname": "修改为你的项目名称，尽量用英文",
+"appid": "修改为你的appid", // 这里提供一个给大家测试：wx5398457df5368458
+"projectname": "修改为你的项目名称，尽量用英文",
 ```
 
 其中，appid在 [微信公众平台](https://mp.weixin.qq.com/) - 开发 - 开发设置中可以找到。
@@ -87,7 +87,7 @@ export const BASE_API_URL = '';
 export const BASE_API_URL = 'http://localhost:8080';
 ```
 
-###7. 将代码导入到开发者工具
+### 7. 将代码导入到开发者工具
 
 注意：**务必勾选 `不校验合法域名...` 。**
 
