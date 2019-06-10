@@ -11,7 +11,7 @@
       <van-cell title="我的兑换" is-link @click="jumpToPostList"/>
       <van-cell title="积分明细" is-link @click="jumpToBonusLogDetails"/>
       <van-cell title="我的投稿" is-link @click="jumpToContributionDetails"/>
-      <van-cell title="完善信息" is-link @click="jumpToUserComplete"/>
+      <!--<van-cell title="完善信息" is-link @click="jumpToUserComplete"/>-->
 
     </div>
   </div>

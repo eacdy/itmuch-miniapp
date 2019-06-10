@@ -9,6 +9,7 @@
     "pages/share/detail/main",
     "pages/share/buy-success/main",
     "pages/share/contribute/main",
+    "pages/share/contribute-edit/main",
     "pages/share/preview/main"
   ],
   "window": {

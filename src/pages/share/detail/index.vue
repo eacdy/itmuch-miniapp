@@ -5,6 +5,7 @@
       <h1 class="title">{{share.title}}</h1>
       <div class="intro">
         <div class="author">作者：{{share.author}}</div>
+        <div class="author">发布人：{{share.username}}</div>
         <div class="count">下载数：{{share.buyCount}}</div>
       </div>
     </div>
