@@ -15,20 +15,7 @@ export function request(url, method = "GET", data) {
       },
       success: function (res) {
         console.log('请求结果', res);
-        if (res.data.status === 200) {
-          if (!res.data.data) {
-            resolve('空的data');
-            return;
-          }
-          resolve(res.data.data)
-        } else {
-          wx.showModal({
-            title: '提示',
-            content: res.data.msg,
-            showCancel: false
-          });
-          reject(res.data);
-        }
+        resolve(res.data)
       },
       fail: function (err) {
         wx.showModal({

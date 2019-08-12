@@ -56,8 +56,7 @@
               'POST', {
                 code: res.code,
                 wxNickname: userInfo.nickName,
-                avatarUrl: userInfo.avatarUrl,
-                gender: userInfo.gender
+                avatarUrl: userInfo.avatarUrl
               }
             ).then(res => {
               console.log('登录成功...', res);

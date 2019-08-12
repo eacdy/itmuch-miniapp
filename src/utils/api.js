@@ -2,7 +2,7 @@
 export const BASE_API_URL = 'https://t.itmuch.com';
 // export const BASE_API_URL = 'http://192.168.0.101:8080';
 // 登录地址
-export const LOGIN_URL = BASE_API_URL + '/login/miniapp';
+export const LOGIN_URL = BASE_API_URL + '/users/login';
 // 公告接口地址
 export const NOTICE_URL = BASE_API_URL + '/notices/newest';
 // share
