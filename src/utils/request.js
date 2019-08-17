@@ -11,7 +11,7 @@ export function request(url, method = "GET", data) {
       method: method,
       header: {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer ' + wx.getStorageSync('token').token
+        'X-Token': wx.getStorageSync('token').token
       },
       success: function (res) {
         console.log('请求结果', res);

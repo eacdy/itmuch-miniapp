@@ -1,12 +1,12 @@
 // 后端接口基础路径
-export const BASE_API_URL = 'https://t.itmuch.com';
-// export const BASE_API_URL = 'http://192.168.0.101:8080';
+// export const BASE_API_URL = 'https://t.itmuch.com';
+export const BASE_API_URL = 'http://127.0.0.1:8040';
 // 登录地址
 export const LOGIN_URL = BASE_API_URL + '/users/login';
 // 公告接口地址
 export const NOTICE_URL = BASE_API_URL + '/notices/newest';
 // share
-export const SHARE_POST_URL = BASE_API_URL + '/posts/shares';
+export const SHARE_POST_URL = BASE_API_URL + '/shares';
 // 预览地址
 export const SHARE_POST_PREVIEW_URL = SHARE_POST_URL + '/preview';
 // 用户主地址
