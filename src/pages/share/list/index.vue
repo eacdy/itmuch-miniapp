@@ -90,12 +90,12 @@
             title: title
           }
         );
-        if (sharesRemote.content.length < 10 && this.pageNo > 0) {
+        if (sharesRemote.list.length < 10 && this.pageNo > 0) {
           this.more = false;
           console.log(this.more)
         }
         if (init) {
-          this.shares = sharesRemote.content;
+          this.shares = sharesRemote.list;
           wx.stopPullDownRefresh();
         } else {
           // 下拉刷新，不能直接覆盖books 而是累加
