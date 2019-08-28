@@ -99,7 +99,7 @@
           wx.stopPullDownRefresh();
         } else {
           // 下拉刷新，不能直接覆盖books 而是累加
-          this.shares = this.shares.concat(sharesRemote.content)
+          this.shares = this.shares.concat(sharesRemote.list)
         }
         wx.hideNavigationBarLoading();
       },
