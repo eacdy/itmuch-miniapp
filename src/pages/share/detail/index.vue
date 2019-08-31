@@ -63,7 +63,7 @@
       async buy() {
         let id = this.id;
         await request(
-          SHARE_POST_URL + `/buy/${id}`,
+          SHARE_POST_URL + `/exchange/${id}`,
           'GET',
           {}
         );
