@@ -16,7 +16,7 @@
     "build": "node build/build.js wx"
   },
   "dependencies": {
-    "marked": "^0.5.2",
+    "marked": "^0.6.1",
     "mpvue": "^1.0.11",
     "mpvue-wxparse": "^0.6.5"
   },
