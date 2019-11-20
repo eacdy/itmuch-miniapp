@@ -119,7 +119,13 @@ Error: Can't find Python executable "python", you can set the PYTHON env variabl
 npm install --global --production windows-build-tools
 ```
 
-#### 8.2 node-sass报404
+#### 8.2 node-sass下载报404
 
 修改package.json中引用的node-sass的版本即可。node-sass的版本可以在这里查看：`https://github.com/sass/node-sass/releases` 
+
+#### 8.3 node-sass死活下载不下来(非404)
+
+默认情况下，node-sass是从GitHub上下载二进制文件的，而GitHub把二进制文件存储在了AWS S3中。国内访问S3很不稳定。因此，也造成了node-sass安装上的困扰。
+
+可参考 `https://segmentfault.com/a/1190000010984731` 的说明，里面总结了四种方式，总有一种方式能够解决。
 
