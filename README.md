@@ -1,5 +1,11 @@
 # itmuch-miniapp
-本项目是 `IT牧场` 小程序的前端代码，
+本项目是 `IT牧场` 小程序的前端代码。
+
+> 本仓库用于慕课网《[Spring Cloud Alibaba从入门到进阶](https://coding.imooc.com/class/358.html)》课程的教学。
+>
+> **对于前端基础不好的童鞋，可以直接放弃折腾，不会影响Spring Cloud Alibaba的学习。**
+>
+> 该前端代码的主要作用是帮助大家感受小程序开发是个怎么回事，另外帮助大家快速理解视频中的业务。
 
 ## 技术选型 & 鸣谢
 
@@ -98,4 +104,22 @@ export const BASE_API_URL = 'http://localhost:8080';
 ![开发者工具](images/dev-tools.png)
 
 可以预览啦！
+
+### 8. 你可能会遇到的问题
+
+#### 8.1 Windows操作系统执行npm install时，报如下异常：
+
+```shell
+Error: Can't find Python executable "python", you can set the PYTHON env variable
+```
+
+用管理员权限执行如下命令即可：
+
+```shell
+npm install --global --production windows-build-tools
+```
+
+#### 8.2 node-sass报404
+
+修改package.json中引用的node-sass的版本即可。node-sass的版本可以在这里查看：`https://github.com/sass/node-sass/releases` 
 
