@@ -119,6 +119,14 @@ Error: Can't find Python executable "python", you can set the PYTHON env variabl
 npm install --global --production windows-build-tools
 ```
 
+如果还是不行，只能参考node-gyp官方的描述去尝试了：`https://github.com/nodejs/node-gyp#configuring-python-dependency` 
+
+比如执行一下：
+
+```shell
+npm config set python /path/to/executable/python
+```
+
 #### 8.2 node-sass下载报404
 
 修改package.json中引用的node-sass的版本即可。node-sass的版本可以在这里查看：`https://github.com/sass/node-sass/releases` 
