@@ -113,15 +113,13 @@ export const BASE_API_URL = 'http://localhost:8080';
 Error: Can't find Python executable "python", you can set the PYTHON env variable
 ```
 
-用管理员权限执行如下命令即可：
+用**管理员权限**执行如下命令即可：
 
 ```shell
 npm install --global --production windows-build-tools
 ```
 
-如果还是不行，只能参考node-gyp官方的描述去尝试了：`https://github.com/nodejs/node-gyp#configuring-python-dependency` 
-
-比如执行一下：
+如果还是不行，那只能参考node-gyp官方的描述去尝试了：`https://github.com/nodejs/node-gyp#configuring-python-dependency` 。你得手动安装Python，然后执行一下：
 
 ```shell
 npm config set python /path/to/executable/python
